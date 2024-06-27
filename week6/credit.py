@@ -5,10 +5,10 @@ card = get_int("Number: ")
 number_of_digits = len(str(card))
 first_two_digits = int(str(card)[0] + str(card)[1])
 
-total_index_of_digits = len(str(card))
+total_index_of_digits = len(str(card)) - 1
 
 index_odd_numbers = total_index_of_digits - 2
-index_even_numbers = total_index_of_digits - 1
+index_even_numbers = total_index_of_digits
 
 total_odd_numbers = 0
 total_even_numbers = 0
