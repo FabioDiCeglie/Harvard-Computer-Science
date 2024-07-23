@@ -1,24 +1,20 @@
 {% extends "layout.html" %}
 
 {% block title %}
-    Buy
+    Quote
 {% endblock %}
 
 {% block main %}
     <div class="container mt-4">
-        <h1 class="mb-4">Buy Stock</h1>
+        <h1 class="mb-4">Get Stock Quote</h1>
         <div class="card">
             <div class="card-body">
-                <form action="/buy" method="post">
+                <form action="/quote" method="post">
                     <div class="form-group">
                         <label for="symbol">Stock Symbol:</label>
                         <input type="text" name="symbol" id="symbol" class="form-control" required>
                     </div>
-                    <div class="form-group">
-                        <label for="shares">Number of Shares:</label>
-                        <input type="number" name="shares" id="shares" class="form-control" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Buy</button>
+                    <button type="submit" class="btn btn-primary">Get Quote</button>
                 </form>
             </div>
         </div>

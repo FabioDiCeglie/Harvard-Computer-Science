@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Stock Quote</h1>
+        <div class="card">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Symbol:</dt>
+                    <dd class="col-sm-9">{{ stock['symbol'] }}</dd>
+                    <dt class="col-sm-3">Price:</dt>
+                    <dd class="col-sm-9">{{ stock['price'] | usd }}</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+{% endblock %}
