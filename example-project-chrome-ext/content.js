@@ -67,12 +67,10 @@ function runAccessibilityChecks() {
 function highlightIssues(issues) {
     issues.altIssues.forEach(img => {
         img.style.border = '2px solid red';
-        img.title = 'Missing alt attribute';
     });
 
     issues.contrastIssues.forEach(el => {
         el.style.outline = '2px solid red';
-        el.title = 'Low contrast text';
     });
 }
 

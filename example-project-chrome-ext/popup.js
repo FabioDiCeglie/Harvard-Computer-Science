@@ -13,6 +13,7 @@ function displayResults(issues) {
     resultsDiv.innerHTML = '';
 
     if (issues.altIssues.length > 0) {
+        let currentIndex = 0;
         resultsDiv.innerHTML += `<p><strong>Images missing alt attributes:</strong> ${issues.altIssues.length}</p>`;
     } else {
         resultsDiv.innerHTML += `<p>All images have alt attributes.</p>`;
