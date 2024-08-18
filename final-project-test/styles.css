@@ -1,0 +1,21 @@
+/* Dark Mode Styles */
+.dark-mode, .dark-mode * {
+    background-color: #353535 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.dark-mode a {
+    color: #bb86fc !important;
+}
+
+/* Light Mode Styles */
+.light-mode, .light-mode * {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.light-mode a {
+    color: #1a0dab !important;
+}
