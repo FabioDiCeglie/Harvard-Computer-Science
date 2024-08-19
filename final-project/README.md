@@ -1,10 +1,4 @@
-# Project title: Web browsing experience
-# Name: Fabio
-# GitHub and edX usernames: FabioDiCeglie - ygmdz29ryv_privaterelay_applei
-# City and Country: Amsterdam, Netherlands
-# Date Video Recorder: 18/08/2024
-
-### Video Demo: [URL HERE]
+### Video Demo: [\[URL HERE\]](https://youtu.be/QtZhsHtfVaU)
 
 ### Description:
 The **Web browsing experience** Chrome extension enhances your web browsing experience by providing two key features: a focused reading mode and a customizable dark or light mode. This extension is designed to make online reading easier on the eyes, whether you prefer a darker theme or a lighter theme.
